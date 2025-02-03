@@ -4,3 +4,17 @@
     font-weight: 400; /*peso da fonte*/
     font-style: normal; /*estilo da fonte  (normal, italic, etc.)*/
 }
+
+@font-face {
+    font-family: "Inter Bold"; /*nome da fonte*/
+    src: url(../assets/fonts/Raleway/static/Inter_18pt-Bold.ttf); /*caminho da fonte*/
+    font-weight: 700; /*peso da fonte*/
+    font-style: normal; /*estilo da fonte  (normal, italic, etc.)*/
+}
+
+@font-face {
+    font-family: "Inter Black"; /*nome da fonte*/
+    src: url(../assets/fonts/Raleway/static/Inter_18pt-Black.ttf); /*caminho da fonte*/
+    font-weight: 900; /*peso da fonte*/ 
+    font-style: normal; /*estilo da fonte  (normal, italic, etc.)*/
+}
