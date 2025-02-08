@@ -1,175 +1,169 @@
-body{
+body {
     font-family: "Inter";
     text-decoration: none;
+    max-width: 100%; /* Garante que o body não ultrapasse a largura da tela */
 }
 
-h2{
-    font-size: 36px;
+h2 {
+    font-size: 2.25rem; /* 36px em rem */
     text-align: center;
     color: #4D4D4D;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem; /* 8px em rem */
 }
 
-p{
+p {
     color: #717171;
+    font-size: 1rem; /* 16px em rem */
 }
 
 /* Header */
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 9.33vh;
+    max-width: 100%;
+    min-height: 5.25rem; /* 84px em rem */
     background-color: #F5F7FA;
-
-    padding: 30px 144px 30px 144px;
+    padding: 1.875rem 9rem; /* 30px 144px em rem */
 }
 
-img[alt="Logo-1"]{
-    width: 154.49px;
-    height: 24px;
+img[alt="Logo-1"] {
+    max-width: 9.656rem; /* 154.49px em rem */
+    height: 1.5rem; /* 24px em rem */
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 3.125rem; /* 50px em rem */
 }
 
-nav > li{
+nav > li {
     list-style: none;
 }
 
-.login{
+.login {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 14px;
+    gap: 0.875rem; /* 14px em rem */
 }
 
-a{
+a {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
 
-button{
+button {
     background-color: #4CAF4F;
     color: #ffff;
-    padding: 10px 20px;
-
+    padding: 0.625rem 1.25rem; /* 10px 20px em rem */
     text-align: center;
-
     border: none;
-    border-radius: 6px;
-
+    border-radius: 0.375rem; /* 6px em rem */
     cursor: pointer;
 }
 
 /* Main */
-main{
+main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 40px;
+    gap: 2.5rem; /* 40px em rem */
 }
 
 /* Hero */
-.hero{
+.hero {
     background-color: #F5F7FA;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 7px;
-    padding:  96px 114px;
-
+    gap: 0.438rem; /* 7px em rem */
+    padding: 6rem 7.125rem; /* 96px 114px em rem */
     width: 100%;
-    height: 63vh;
-
+    height: auto; /* Altura ajustável */
+    max-width: 100%; /* Garante que não ultrapasse a largura da tela */
 }
 
-img[alt="Illustration"]{
-    width: 391px;
-    height: 407px;
+img[alt="Illustration"] {
+    width: 24.438rem; /* 391px em rem */
+    height: 25.438rem; /* 407px em rem */
+    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
 }
 
-.hero-action{
+.hero-action {
     display: flex;
-    gap: 114px;
-
+    gap: 7.125rem; /* 114px em rem */
+    max-width: 100%; /* Garante que não ultrapasse a largura da tela */
 }
 
-.text-action{
-    margin-top: 116px;
-    margin-bottom: 116px;
+.text-action {
+    margin-top: 7.25rem; /* 116px em rem */
+    margin-bottom: 7.25rem; /* 116px em rem */
 }
 
-.text-action > h1{
-    font-size: 64px;
-    margin-bottom: 16px;
+.text-action > h1 {
+    font-size: 4rem; /* 64px em rem */
+    margin-bottom: 1rem; /* 16px em rem */
     color: #4D4D4D;
 }
 
-.text-action > p{
-    margin-bottom: 32px;
+.text-action > p {
+    margin-bottom: 2rem; /* 32px em rem */
 }
 
-img[alt="Illustration"]{
-    width: 391px;
-    height: 407px;
-}
-
-span{
+span {
     color: #4CAF4F;
 }
 
 /* Simulando Botão */
 .dots {
     display: flex;
-    gap: 8px; 
+    gap: 0.5rem; /* 8px em rem */
 }
 
 .dot {
-    width: 10px; 
-    height: 10px; 
+    width: 0.625rem; /* 10px em rem */
+    height: 0.625rem; /* 10px em rem */
     border-radius: 50%;
-    background-color: #c5e1a5; 
+    background-color: #c5e1a5;
 }
 
 .active {
-    background-color: #4CAF50; 
+    background-color: #4CAF50;
 }
 
 /* Clients */
-.clients{
+.clients {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    width: 100%;
-    height: 19vh;
+    gap: 1rem; /* 16px em rem */
+    max-width: 100%;
+    height: auto; /* Altura ajustável */
 }
 
-.logos{
+.logos {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
     justify-content: space-around;
+    flex-wrap: wrap; /* Permite que os logos quebrem para a próxima linha */
 }
 
 img[alt="Logo"],
-img[alt="Duas pessoas"]
-img[alt="Icone de Click"]
-img[alt="Icone de Mãos"]
-img[alt="Icone de Cartão"]
-{
-    width: 48px;
-    height: 48px;
+img[alt="Duas pessoas"],
+img[alt="Icone de Click"],
+img[alt="Icone de Mãos"],
+img[alt="Icone de Cartão"] {
+    width: 3rem; /* 48px em rem */
+    height: 3rem; /* 48px em rem */
+    max-width: 100%; /* Garante que as imagens não ultrapassem o contêiner */
 }
 
 /* Community */
@@ -179,14 +173,15 @@ img[alt="Icone de Cartão"]
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 41.6vh;
-    gap: 16px;
-    margin-bottom: 46px;
+    height: auto; /* Altura ajustável */
+    gap: 1rem; /* 16px em rem */
+    margin-bottom: 2.875rem; /* 46px em rem */
 }
 
 .title-community {
-    width: 532px;
+    width: 33.25rem; /* 532px em rem */
     text-align: center;
+    max-width: 100%; /* Garante que não ultrapasse a largura da tela */
 }
 
 .cards {
@@ -194,44 +189,44 @@ img[alt="Icone de Cartão"]
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 280px;
-    padding-left: 144px;
-    padding-right: 144px;
-
+    height: auto; /* Altura ajustável */
+    padding: 0 9rem; /* 144px em rem */
+    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
 }
 
 .card {
-    width: 299px;
-    height: 260px;
+    width: 18.688rem; /* 299px em rem */
+    height: auto; /* Altura ajustável */
     box-shadow: 5px 5px 15px rgba(171, 190, 209, 0.2);
-    padding: 24px 32px ;
-
+    padding: 1.5rem 2rem; /* 24px 32px em rem */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 100%; /* Garante que não ultrapasse a largura da tela */
 }
 
 img[alt="Icone de Pessoa"],
 img[alt="Icone de Prédio"],
-img[alt="Icone de Mãos"]{
-    width: 65px;
-    height: 56px;
-    margin-bottom: 16px;
+img[alt="Icone de Mãos"] {
+    width: 4.063rem; /* 65px em rem */
+    height: 3.5rem; /* 56px em rem */
+    margin-bottom: 1rem; /* 16px em rem */
+    max-width: 100%; /* Garante que as imagens não ultrapassem o contêiner */
 }
 
-.card > h3{
+.card > h3 {
     color: #4D4D4D;
-    font-size: 28px;
+    font-size: 1.75rem; /* 28px em rem */
     font-weight: bold;
     text-align: center;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem; /* 8px em rem */
 }
 
-.card > p{
-    font-size: 14px;
+.card > p {
+    font-size: 0.875rem; /* 14px em rem */
     text-align: center;
-    line-height: 20px;
+    line-height: 1.25rem; /* 20px em rem */
 }
 
 .more-info{
@@ -243,8 +238,9 @@ img[alt="Icone de Mãos"]{
 }
 
 .unlock , .calendar{
-    height: 43.3vh;
+    height: auto;
     width: 100%;
+    max-width: 100%;
 
     display: flex;
     flex-direction: row;
