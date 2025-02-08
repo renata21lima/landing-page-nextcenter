@@ -3,6 +3,17 @@ body{
     text-decoration: none;
 }
 
+h2{
+    font-size: 36px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 8px;
+}
+
+p{
+    color: #717171;
+}
+
 /* Header */
 header{
     display: flex;
@@ -14,7 +25,7 @@ header{
     padding: 30px 144px 30px 144px;
 }
 
-img[alt="Logo"]{
+img[alt="Logo-1"]{
     width: 154.49px;
     height: 24px;
 }
@@ -72,11 +83,11 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 70px;
+    gap: 7px;
     padding:  96px 114px;
 
     width: 100%;
-    height: 74.875vh;
+    height: 63vh;
 
 }
 
@@ -99,6 +110,7 @@ img[alt="Illustration"]{
 .text-action > h1{
     font-size: 64px;
     margin-bottom: 16px;
+    color: #4D4D4D;
 }
 
 .text-action > p{
@@ -132,3 +144,296 @@ span{
 }
 
 /* Clients */
+.clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    height: 19vh;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+img[alt="Logo"],
+img[alt="Duas pessoas"]
+img[alt="Icone de Click"]
+img[alt="Icone de Mãos"]
+img[alt="Icone de Cartão"]
+{
+    width: 48px;
+    height: 48px;
+}
+
+/* Community */
+.community {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 41.6vh;
+    gap: 16px;
+    margin-bottom: 46px;
+}
+
+.title-community {
+    width: 532px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 280px;
+    padding-left: 144px;
+    padding-right: 144px;
+
+}
+
+.card {
+    width: 299px;
+    height: 260px;
+    box-shadow: 5px 5px 15px rgba(171, 190, 209, 0.2);
+    padding: 24px 32px ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img[alt="Icone de Pessoa"],
+img[alt="Icone de Prédio"],
+img[alt="Icone de Mãos"]{
+    width: 65px;
+    height: 56px;
+    margin-bottom: 16px;
+}
+
+.card > h3{
+    color: #4D4D4D;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.card > p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.more-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 48px;
+    margin-bottom: 94.6px;
+}
+
+.unlock , .calendar{
+    height: 43.3vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+img[alt="Icone de duas pessoas"],
+img[alt="Icone de uma Mulher"]{
+    width: 442px;
+    height: 433px;
+}
+
+.text-pixelgrade{
+    width: 661px;
+    height: 268px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.text-pixelgrade > h2{
+    text-align: start;
+}
+
+.achievements {
+    width: 100%;
+    height: 288px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 144px;
+    background-color: #F5F7FA;
+}
+
+.text-achievements {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.text-achievements h3 {
+    font-size: 36px;
+    color: #4D4D4D;
+    font-weight: 700;
+}
+
+.text-achievements p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.achievements-content {
+    display: flex;
+    width: 540px;
+    gap: 50px;
+}
+
+.counts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icons-numbers {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.number-text h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+}
+
+.number-text p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.custumers {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 100px;
+    background-color: #F5F7FA;
+}
+
+img[alt="Tesla"] {
+    width: 326px;
+    height: 326px;
+}
+
+.text-and-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    max-width: 600px;
+    gap: 32px;
+}
+
+.logos-all {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.logos-all p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4CAF4F;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.community-updates {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.text-updates h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text-updates p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.cards-marketing {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-marketing {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 320px;
+    transition: transform 0.3s ease;
+}
+
+.card-marketing img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.mini-card {
+    padding: 20px;
+    text-align: center;
+}
+
+.mini-card p:first-child {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.mini-card p:last-child {
+    font-size: 1rem;
+    color: #6FB645;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.mini-card p:last-child img {
+    width: 16px;
+    height: 16px;
+}
+
